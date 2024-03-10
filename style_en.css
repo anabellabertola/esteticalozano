@@ -1,0 +1,1224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700;6..96,800&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Bodoni';
+    margin: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* MENU */
+
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    margin-right: 50%;
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu-1 {
+    margin-top: 40px;
+}
+
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 30px;
+    margin-top: -60px;
+    color:#FE75A1;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color:#EC407A;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.memnu label {
+    cursor: pointer;
+    display: none;
+}
+
+.menu-icono {
+    display: none;
+}
+
+.header-content {
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+/* LANGUAGE BUTTON*/
+
+.boton-container {
+    text-align: center;
+}
+
+.boton-container img {
+    width: 45px;
+    position: absolute;
+    margin-left: 90%;
+}
+
+/* BANNER */
+
+.img-banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+.txt-banner {
+    width: 50%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 250px;
+    position: absolute;
+    color: #FE75A1;
+}
+
+.txt-banner h1 {
+    font-size: 50px;
+}
+
+.txt-banner h2 {
+    font-size: 25px;
+    font-size: 'Bodoni';
+}
+
+.txt-banner h4 {
+    font-size: 15px;
+}
+
+.button {
+    padding: 10px;
+    margin-top: 30px;
+    font-family: 'Bodoni';
+    background-color: #E3F2FD;
+    border-color: #E3F2FD;
+    box-shadow: 0;
+    color: #757575;
+    cursor: pointer;
+}
+
+/* ABOUT US? */
+
+.quienessomos {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+    margin-top: 60%;
+    align-items: center;
+}
+
+.quienessomos img {
+    width: 40%;
+    height: 70%;
+    margin-left: 70px;
+}
+
+.txt-img  {
+    text-align: left;
+    line-height: 25px;
+    height: 50px;
+    padding: 15px 70px 50px 70px;
+    margin-top: 15px;
+}
+
+.txt-img h3 {
+    font-size: 35px;
+    font-family: 'Roboto';
+    color: #FE75A1;
+    margin-top: -250px;
+}
+
+.txt-img h1 {
+    font-size: 50px;
+    color: #FE75A1;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.txt-img p {
+    font-size: 15px;
+    font-family: 'Bodoni';
+    font-weight: 500;
+    color: #FE75A1;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+/* LILA STRIP */
+
+.franja {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    display: block;
+    background-color: #D2B4DE;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-top: 800px;
+}
+
+.item {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 105px;
+}
+
+.item .logo-1 {
+    text-align: center;
+    width: 55%;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 20px;
+    font-family: 'Bodoni';
+    color: white;
+    font-weight: 700;
+}
+
+.item .logo-2 {
+    text-align: center;
+    width: 45%;
+}
+
+.item .logo-3 {
+    text-align: center;
+    width: 110px;
+    margin-bottom: 15px;
+}
+
+.item .logo-4 {
+    text-align: center;
+    width: 110px;
+    margin-bottom: 16px;
+}
+
+/* TREATMENTS */
+
+.categorias {
+    display: block;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo-categoria {
+    text-align: center;
+    margin-top: 1250px;
+    margin-bottom: 50px;
+}
+
+.titulo-categoria h1 {
+    font-size: 35px;
+    color: #FE75A1;
+    margin-bottom: 5px;
+}
+
+.titulo-categoria h2 {
+    font-size: 65px;
+    color: #FE75A1;
+    margin-bottom: 10%;
+}
+
+.categorias-trat {
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+
+}
+
+.categorias-trat .categoria-1 {
+    background-color: #FDEDEC;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    display: block;
+    padding: 15px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    width: 42%;
+}
+
+.categoria-1 h1 {
+    font-family: 'Bodoni';
+    font-size: 40px;
+    color: #FE75A1;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.categoria-1 img {
+    width: 60%;
+}
+
+.categoria-1 p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family: 'Bodoni';
+    font-weight: 500;
+    color: #FE75A1;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-1 {
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 1px;
+    font-family: 'Bodoni';
+    background-color: #E3F2FD;
+    border-color: #E3F2FD;
+    box-shadow: 0;
+    color: #757575;
+    cursor: pointer;
+}
+
+.categorias-trat .categoria-2 {
+    background-color: #FDEDEC;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    display: inline-block;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 42%;
+}
+
+.categoria-2 {
+    height: 100%;
+}
+
+.categoria-2 h1 {
+    font-family: 'Bodoni';
+    font-size: 40px;
+    color: #FE75A1;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.categoria-2 p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family: 'Bodoni';
+    font-weight: 500;
+    color: #FE75A1;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.categoria-2 img {
+    width: 60%;
+}
+
+.btn-2 {
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 1px;
+    font-family: 'Bodoni';
+    background-color: #E3F2FD;
+    border-color: #E3F2FD;
+    box-shadow: 0;
+    color: #757575;
+    cursor: pointer;
+}
+
+/* FINAL PHRASE */
+
+.txt-final {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.btn-3 {
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 1px;
+    font-family: 'Bodoni';
+    background-color: #E3F2FD;
+    border-color: #E3F2FD;
+    box-shadow: 0;
+    color: #757575;
+    cursor: pointer;
+}
+
+/* DOUTSTANDING */
+
+.container-txt {
+    text-align: center;
+    background-image: url('IMG/estetica.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container-txt h1 {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    margin-left: 39%;
+    margin-top: 7%;
+}
+
+.container-txt h2 {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17%;
+    margin-left: 33%;
+}
+
+.btn-depi {
+    padding: 10px;
+    font-family: 'Bodoni';
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-color: white;
+    box-shadow: 0;
+    color: white;
+    cursor: pointer;
+    border-color: white;
+    display: flex;
+    position: absolute;
+    font-weight: 700;
+    margin-top: 23%;
+    margin-left: 43%;
+}
+
+/* SOCIAL NETWORKS 1 */
+
+.titulo-social {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.titulo-social h1 {
+    color:#FE75A1;
+    font-size: 55px;
+    margin-bottom: 5%;
+}
+
+.img-social {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 19%;
+}
+
+.social-1 {
+    width: 30%;
+}
+
+.social-2 {
+    width: 30%;
+}
+
+.social-3 {
+    width: 30%;
+}
+
+.img-social {
+    margin-bottom: 10%;
+}
+
+.imagen-social img {
+    margin: 5px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    display: inline-block;
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.footer-container {
+    position: relative;
+    background-color: #F5EEF8;
+    height: 200px;
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-footer {
+    margin-left: 14%;
+    color:#FE75A1;
+}
+
+.titulo-footer h4 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-img img {
+    width: 30%;
+    margin-top: -30px;
+
+}
+
+/*SOCIAL NETWORKS 1 */
+
+.link {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 17%;
+}
+
+.links ul li a{
+    color:#FE75A1;
+    font-size: 15px;
+}
+
+.links ul li {
+    line-height: 25px
+}
+
+.links li a:hover {
+    color: #EC407A;
+}
+
+.link img {
+    margin: 5px;
+}
+
+.link-social .img-1 {
+    width: 50px;
+    margin-top: 10px;
+
+}
+
+.link-social .img-2 {
+    width: 50px;
+}
+
+/* COPYRIGHT */
+
+.copy {
+    text-align: center;
+    position: relative;
+    background-color: #F5EEF8;
+}
+
+.copyright p {
+    font-family: 'Bodoni';
+    color: #FE75A1;
+    font-weight: 700;
+    padding: 20px;
+}
+
+/* R E S P O N S I V E */
+
+
+/* TABLET*/
+
+@media screen and (max-width: 991px) {
+
+    /* MENU */
+
+    .menu {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .logo-1 {
+        margin-top: -20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #EC407A;
+        display: none;
+    }
+
+
+    .menu .navbar ul li {
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .menu .navbar ul li a {
+        color: white;
+    }
+
+    .menu-icono {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        position: absolute;
+        width: 35px;
+        display: flex;
+        margin-left: 5%;
+        margin-top: -6%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .menu .navbar ul li a:hover {
+        color:#FE75A1;
+    }
+
+    /* LANGUAGE SYMBOL */
+
+    .boton-container {
+        margin-top: -24px;
+        margin-right: -5px;
+    }
+
+    .boton-container img {
+        width:40px;
+    }
+
+    /* BANNER */
+
+    .txt-banner {
+        margin-left: 50px;
+        margin-top: 15%;
+    }
+
+    .txt-banner h1 {
+        font-size: 45px;
+    }
+    .txt-banner h2 {
+        font-size: 25px;
+    }
+
+    .txt-banner h4 {
+        font-size: 13px;
+    }
+
+    .button {
+        font-size: 11px;
+    }
+
+    /* ABOUT US? */
+
+    .quienessomos {
+        margin-top: 65%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .quienessomos img {
+        width: 35%;
+        margin-top: -10%;
+        margin-right: 7%;
+    }
+
+    .txt-img {
+        margin-top: 32%;
+        text-align: center;
+    }
+
+    .txt-img h3 {
+        font-size: 27px;
+    }
+
+    .txt-img h1 {
+        font-size: 43px;
+    }
+
+    .txt-img p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+        
+    /* LILA STRIP*/
+
+    .franja {
+        height: 45%;
+        margin-top: 95%;
+    }
+
+    .item {
+        width: 17%;
+        margin: 28px;
+        margin-top: 7%;
+    }
+
+    .item .logo-1 {
+        width: 40%;
+    }
+
+    .item .logo-2 {
+        width: 50%;
+    }
+
+    .item .logo-3 {
+        width: 40%;
+    }
+
+    .item .logo-4 {
+        width: 40%;
+    }
+
+    .item p {
+        font-size: 17px;
+    }
+
+    .logo-1, .logo-2, .logo-3, .logo-4 {
+        margin-top: 25%;
+    }
+
+    /* TREATMENTS */
+
+    .titulo-categoria h1 {
+        font-size: 25px;
+    }
+
+    .titulo-categoria h2 {
+        font-size: 55px;
+    }
+
+    .categorias-trat {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .categorias-trat .categoria-1 {
+        margin-left: 12%;
+        padding: 30px;
+    }
+
+    .categoria-1 p {
+        margin-left: 0px;
+    }
+
+    /* FINAL PHRASE*/
+
+    .txt-final {
+        font-size: 20px;
+    }
+
+    /* DOUTSTANDING */
+
+    .container-txt h1{
+        margin-left: 33%;
+        margin-top: 10%;
+    }
+
+    .container-txt h2 {
+        margin-left: 24%;
+        margin-top: 25%;
+    }
+
+    .btn-depi {
+        margin-top: 35%;
+        margin-left: 39%;
+    }
+
+    /* SOCIAL NETWORKS 1 */
+
+    .titulo-social h1 {
+        font-size: 50px;
+    }
+
+    .imagen-social img {
+        margin: 10px;
+        margin-left: 20%;
+    }
+
+    .social-1 {
+        width: 20%;
+    }
+
+    .social-2 {
+        width: 20%;
+    }
+
+    .social-3 {
+        width: 20%;
+    }
+
+    /* FOOTER */
+
+    footer {
+        height: 200px;
+    }
+
+    .footer-container {
+        display: block;
+    }
+
+    .titulo-footer {
+        margin-top: -5%;
+        margin-right: 14%;
+        margin-bottom: 10%;
+    }
+
+    .footer-img img {
+        width: 125px;
+        margin-top: -10%;
+    }
+
+    /* COPYRIGHT*/
+
+    .copyright {
+        margin-top: 10%;
+    }
+}
+
+/* MOVIL GRANDE*/
+
+@media screen and (max-width: 600px) {
+
+    /* MENU */
+
+    .menu-icono {
+        width: 35px;
+    }
+
+    /* BANNER */
+
+    .img-banner img {
+        width: 85%;
+        margin-top: 5%;
+        transform: scale(1.2);
+        height: 295px;
+        margin-left: 6%;
+    }
+
+    .txt-banner {
+        z-index: 1;
+        margin-top: 25%;
+    }
+
+    .txt-banner h1 {
+        font-size: 27px;
+    }
+
+    .txt-banner h2 {
+        font-size: 17px;
+    }
+
+    .txt-banner h4 {
+        font-size: 11px;
+        font-weight: 200;
+    }
+
+    .button {
+        font-size: 10px;
+        padding: 7px;
+    }
+
+    /* LANGUAGE BUTTON*/
+
+    .boton-container {
+        margin-right: 10%;
+    }
+
+    /* ABOUT US? */
+
+    .quienessomos {
+        flex-wrap: wrap;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .quienessomos img {
+        width: 45%;
+        justify-content: center;
+        align-items: center;
+        margin-right: 12%;
+        margin-top: 10%;
+    }
+
+    .txt-img {
+        margin-top: 53%;
+    }
+
+    .txt-img h3 {
+        font-size: 20px;
+    }
+
+    .txt-img h1 {
+        font-size: 35px;
+    }
+
+    .txt-img p {
+        font-size: 13px;
+    }
+
+    /* LILA STRIP*/
+
+    .franja {
+        margin-top: 190%;
+        height: 35%;
+    }
+
+    .item {
+        margin: 17px;
+        margin-top: 7%;
+    }
+
+    .item p {
+        font-size: 13px;
+    }
+
+    /* TREATMENTS */
+
+    .titulo-categoria h1 {
+        font-size: 20px;
+    }
+    .titulo-categoria h2 {
+        font-size: 47px;
+    }
+
+    .categorias-trat .categoria-1 {
+        margin-left: 21%;
+    }
+    
+    .categoria-1 h1 {
+        font-size: 27px;
+    }
+
+    .categoria-1 p {
+        line-height: 20px;
+    }
+
+    .btn-1 {
+        margin-top: 2px;
+        font-size: 10px;
+    }
+
+    .categoria-2 h1 {
+        font-size: 27px;
+    }
+
+    .categoria-2 p {
+        line-height: 20px;
+        margin-left: 0px;
+    }
+
+    .btn-1 {
+        margin-top: 2px;
+        font-size: 10px;
+    }
+
+    /* FINAL PHRASE */
+    
+    .txt-final h1 {
+        font-size: 20px;
+        width: 95%;
+        margin-left: 3%;
+    }
+    .btn-3 {
+        font-size: 10px;
+    }
+
+    /* DOUTSTANDING */
+
+    .container-txt {
+        margin-bottom: 20%;
+    }
+
+    .container-txt h1 {
+        font-size: 50px;
+        margin-top: 25%;
+        margin-left: 29%;
+    }
+
+    .container-txt h2 {
+        margin-top: 45%;
+        font-size: 20px;
+        margin-left: 17%;
+    }
+
+    .btn-depi {
+        margin-top: 60%;
+        margin-left: 32%;
+    }
+
+    /* SOCIAL NETWORKS 1 */
+
+    .titulo-social h1 {
+        font-size: 40px;
+    }
+
+    .img-social {
+        margin-bottom: 20%;
+    }
+
+    .imagen-social {
+        margin-right: 7%;
+    }
+
+    .imagen-social img {
+        margin: 20px;
+    }
+
+    .social-1 {
+        width: 25px;
+    }
+
+    
+    .social-2 {
+        width: 25px;
+    }
+
+    
+    .social-3 {
+        width: 25px;
+    }
+
+    /* SOCIAL NETWORKS 2 */
+
+    .link-social {
+        margin-top: -5%;
+    }
+
+    .link img {
+        width: 20px;
+    }
+
+}
+
+
+/* MOVIL PEQUEÑO */
+
+@media screen and (max-width: 400px) {
+    .txt-banner {
+        width: 54%;
+        margin-top: 24%;
+        margin-left: 7%;
+    }
+    
+    .txt-banner h1 {
+        font-size: 23px;
+    }
+    
+    .txt-banner h4 {
+        font-weight: 600;
+    }
+    
+    .img-banner img {
+        height: 260px;
+    }
+    
+    .button {
+        margin-top: 5%;
+    }
+
+    /* ABOUT US? */
+
+    .quienessomos {
+        margin-top: 80%;
+    }
+    
+    .quienessomos img {
+        margin-left: 11%;
+    }
+
+    .txt-img {
+        margin-top: 65%;
+    }
+
+    .txt-img p {
+        line-height: 17px;
+    }
+
+    /* LILA STRIP*/
+
+    .franja {
+        margin-top: 255%;
+        height: 210px;
+    }
+
+    .item {
+        text-align: center;
+        margin: 14px;
+        margin-top: 7%;
+    }
+
+    /* TREATMENTS */
+
+    .titulo-categoria h2 {
+        font-size: 40px;
+    }
+    
+    .categorias-trat .categoria-1 {
+        margin-left: 23%;
+    }
+    
+    .categorias-trat .categoria-2 {
+        width: 37%;
+    }
+    
+    /* DESTACADO */
+
+    .container-txt {
+        height: 370px;
+        margin-bottom: 20%;
+    }
+    
+    .container-txt h1 {
+        font-size: 40px;
+        margin-top: 26%;
+    }
+
+    .container-txt h2 {
+        font-size: 17px;
+        margin-top: 45%;
+        margin-left: 13%;
+    }
+
+    .btn-depi {
+        font-size: 13px;
+        margin-top: 60%;
+        margin-left: 32%;
+    }
+
+    /* SOCIAL NETWORKS 1 */
+
+    .img-social {
+        margin-bottom: 20%;
+    }
+
+    /* SOCIAL NETWORKS 1 */
+
+    .link-social {
+        margin-top: -5%;
+    }
+
+    .link .img-1 {
+        width: 40px;
+
+    }
+
+    .link .img-2 {
+        width: 40px;
+    }
+
+    /* COPYRIGHT */
+    
+    .copy {
+        height: 150px;
+    }
+
+    .copyright {
+        font-size: 13px;
+        margin-top: 10%;
+    }
+}

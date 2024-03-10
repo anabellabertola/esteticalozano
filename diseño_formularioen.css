@@ -1,0 +1,605 @@
+/* CSS FORMULARIO INGLES */
+/* CSS ENGLISH FORM */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700;6..96,800&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Bodoni';
+    background-color: #FBFBFB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Bodoni';
+    background-color: #FBFBFB;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* MENU */
+
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    margin-right: 50%;
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu-1 {
+    margin-top: 40px;
+}
+
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    list-style-type: none;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 30px;
+    margin-top: -60px;
+    color:#FE75A1;
+    display: block;
+
+}
+
+.menu .navbar ul li a:hover {
+    color:#EC407A;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.memnu label {
+    cursor: pointer;
+    display: none;
+}
+
+.menu-icono {
+    display: none;
+}
+
+.header-content {
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+/* LANGUAGE BUTTON */
+
+.boton-container {
+    text-align: center;
+}
+
+.boton-container img {
+    width: 27px;
+    position: absolute;
+    margin-left: 91%;
+}
+
+/* FORM TITLE*/
+
+.texto-form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    margin-top: 15%;
+}
+
+.txt-formulario h1 {
+    color:#FE75A1;
+    font-size: 60px;
+}
+
+/* FORM */
+
+form {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    backdrop-filter: blur(70px);
+    background-image: url('IMG/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    width: 700px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(173, 20, 87, 0.2);
+    margin-bottom: 50px;
+    display: block;
+    position: relative;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+form h2 {
+    font-size: 45px;
+    margin-bottom: 35px;
+    color: #FE75A1;
+}
+
+form h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #FE75A1;
+}
+
+/* FIELDS TO COMPLETE IN THE FORM */
+
+.input-contenedor {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.input-contenedor h6 {
+    font-size: 10px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #FE75A1;
+}
+
+.input-contenedor > input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px 5px 20px;
+    width: 100%;
+    margin-bottom: 25px;
+    outline: none;
+    color: black;
+    position: relative;
+}
+
+::placeholder {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Bodoni';
+}
+
+.input-grupo a {
+    color: #FE75A1;
+}
+
+.input-grupo button {
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 1px;
+    font-family: 'Bodoni';
+    background-color: #E3F2FD;
+    border-color: #E3F2FD;
+    box-shadow: 0;
+    color: #757575;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+/* SEND BUTTON */
+
+.btn {
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 1px;
+    font-family: 'Bodoni';
+    background-color: #E3F2FD;
+    border-color: #E3F2FD;
+    box-shadow: 0;
+    color: #757575;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+/* SUCCESSFUL NOTICE OF COMPLETE INFORMATION ON THE FORM */
+
+.success {
+    position: absolute;
+    top: 50px;
+    color: #00A735;
+    font: 18px;
+}
+
+/* ALERT FOR INCORRECT INFORMATION OR ERROR WHEN LOADING WHEN SENDING THE FORM */
+
+.error { 
+    position: absolute;
+    top: 50px;
+    color: #E02D00;
+    font-size: 18px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    display: inline-block;
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+/* FOOTER MENU */
+
+.footer-container {
+    position: relative;
+    background-color: #F5EEF8;
+    height: 200px;
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-footer {
+    margin-left: 14%;
+    color:#FE75A1;
+}
+
+.titulo-footer h4 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.links ul li a{
+    color:#FE75A1;
+    font-size: 15px;
+}
+
+.links ul li {
+    line-height: 25px
+}
+
+.links li a:hover {
+    color: #EC407A;
+}
+
+/* FOOTER LOGO */
+
+.footer-img img {
+    width: 30%;
+    margin-top: -30px;
+
+}
+
+/* FOOTER SOCIAL NETWORKS */
+
+.link {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 17%;
+}
+
+.link img {
+    margin: 5px;
+}
+
+
+.link-social .img-1 {
+    width: 50px;
+    margin-top: 10px;
+
+}
+.link-social .img-2 {
+    width: 50px;
+}
+
+/* COPYRIGHT*/
+
+.copy {
+    text-align: center;
+    position: relative;
+    background-color: #F5EEF8;
+}
+
+.copyright p {
+    font-family: 'Bodoni';
+    color: #FE75A1;
+    font-weight: 700;
+    padding: 20px;
+}
+
+
+
+/** R E S P O N S I V E */
+
+/* TABLET */
+
+@media screen and (max-width: 991px) {
+
+    /* MENU */
+
+    .menu {
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .logo-1 {
+        margin-top: -20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #EC407A;
+        display: none;
+    }
+
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    .menu .navbar ul li a {
+        color: white;
+        line-height: 80px;
+    }
+
+    .menu-icono {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        position: absolute;
+        width: 35px;
+        display: flex;
+        margin-left: 5%;
+        margin-top: -6%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .menu .navbar ul li a:hover {
+        color:#FE75A1;
+    }
+
+    /* LANGUAGE BUTTON */
+
+    .boton-container {
+        margin-top: -24px;
+        margin-right: -5px;
+    }
+
+    .boton-container img {
+        width:27px;
+    }
+
+    /* FORM TITLE*/
+
+    .txt-formulario h1 {
+        font-size: 50px;
+    }
+    
+    .success {
+        margin-left: 35%;
+    }
+     .error {
+         margin-left: 36%;
+     }
+
+    /* FOOTER */
+
+    footer {
+        height: 200px;
+    }
+
+    /* FOOTER MENU */
+
+    .footer-container {
+        display: block;
+    }
+
+    .titulo-footer {
+        margin-top: -5%;
+        margin-right: 14%;
+        margin-bottom: 10%;
+    }
+
+    /* FOOTER LOGO */
+    .footer-img img {
+        width: 125px;
+        margin-top: -10%;
+    }
+
+    /* COPYRIGHT */
+
+    .copyright {
+        margin-top: 10%;
+    }
+}
+
+/* LARGE MOBILE */
+
+@media screen and (max-width: 600px) {
+
+    /* MENU */
+
+    .menu-icono {
+        width: 35px;
+    }
+
+    /* LANGUAGE BUTTON */
+
+    .boton-container {
+        margin-right: 20%;
+    }
+
+    .boton-container img {
+        margin-left: 96%;
+        margin-top: 5%;
+    }
+
+    /* FORM TITLE */
+
+    .txt-formulario h1 {
+        font-size: 40px;
+        margin-top: 20%;
+    }
+
+    /* FORM */
+
+    .formulario {
+        margin-bottom: 30%;
+        width: 90%;
+        margin-left: 6%;
+    }
+
+    .formulario h2 {
+        font-size: 35px;
+    }
+
+    .formulario h4 {
+        font-size: 15px;
+    }
+
+    /*FIELDS TO COMPLETE IN THE FORM */
+
+    ::placeholder {
+        font-size: 13px;
+    }
+    
+     .success {
+        margin-left: 22%;
+        margin-top: 28%;
+    }
+    
+    .error {
+        margin-left: 25%;
+        margin-top: 28%;
+    }
+
+    /* SOCIAL NETWORKS FOOTER */
+
+    .link-social {
+        margin-top: -5%;
+    }
+
+    .link img {
+        width: 20px;
+    }
+
+    /* COPYRIGHT */
+
+    .copyright {
+        font-size: 13px;
+    }
+}
+
+/* SMALL MOBILE */
+
+@media screen and (max-width: 400px) {
+
+    /* FORM TITLE */
+
+    .txt-formulario {
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+    /* SOCIAL NETWORKS FOOTER */
+
+    .img-social {
+        margin-bottom: 20%;
+    }
+
+    .link-social {
+        margin-top: -5%;
+    }
+
+    .link .img-1 {
+        width: 40px;
+    }
+
+    .link .img-2 {
+        width: 40px;
+    }
+
+    .success {
+        margin-left: 19%;
+        margin-top: 55%;
+    }
+    
+    .error {
+        margin-left: 22%;
+        margin-top: 55%;
+    }
+
+    /* COPYRIGHT */
+    
+    .copy {
+        height: 150px;
+    }
+
+    .copyright {
+        font-size: 13px;
+        margin-top: 10%;
+    }
+}
